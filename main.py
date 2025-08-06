@@ -14,7 +14,7 @@ app = FastAPI()
 
 # --- CORS Configuration ---
 origins = [
-    "https://dolzeai-frontend.vercel.app/login",
+    "https://dolzeai-frontend.vercel.app",
     "https://dolzeai-backend.onrender.com",
     "http://localhost:3000", # The default port for React's development server
     "http://localhost:5173", # The default port for Vite + React
